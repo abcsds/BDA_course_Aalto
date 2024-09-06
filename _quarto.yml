@@ -5,6 +5,7 @@ project:
   post-render:
     - quarto render --profile public assignments
     - cp -r assignments/assignments _site
+    - cp -r assignments2023 _site
 
 website:
   title: "Bayesian Data Analysis course"
